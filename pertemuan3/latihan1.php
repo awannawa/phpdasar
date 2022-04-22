@@ -9,7 +9,7 @@
 } */
 
 /* $i = 0;
-while ( $i <5  ){
+while ( $i < 5  ){
     echo "Hello World <br>";
 $i++;
 } */
@@ -44,15 +44,37 @@ do{
 <table border="1" cellpadding="10" cellspacing="0">
     <?php for ($i = 1; $i <=3; $i++) : ?>
         <tr>
-            <?php for ($j = 1; $j <=5; $j++) : ?>
-                <td><?php echo "$i,$j"; ?>
+            <?php for ($j = 1; $j <= 5; $j++) : ?>
+                <td><?php echo "$i,$j"; ?> </td>
                 <!-- <td><?= "$i,$j";?></td> bisa pilih salah satu ini atau atas ^^-->
                 <?php endfor; ?>
         </tr>
     <?php endfor; ?>    
-
 </table>
 
+<!-- batas while -->
+    <?php 
+    $i = 1;
+     while ( $i < 5 ) :?>
+        <?php echo "wakwaw <br>"; ?>
+        <?php $i++; ?>
+     <?php endwhile; ?>
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <?php $i = 1;
+    while ($i <= 5 ) : ?>
+        <tr>
+            <?php $r = 0;
+             while ($r < 3) : ?>
+                <td>
+                <?= "$i,$r";  ?>
+                </td>
+                <?php $r++ ?>
+            <?php endwhile; ?>
+        </tr>
+    <?php $i++; ?>
+    <?php endwhile; ?>
+</table>
 
 </body>
 </html>
