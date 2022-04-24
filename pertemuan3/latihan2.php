@@ -10,7 +10,6 @@ if ($i < 10){
 } else if ($i == 10){
     echo "eeq";
 } 
-// awa
 else echo "wakwaw";
  
 
