@@ -14,6 +14,6 @@
 // jam, menit, detik, bulan, tanggal, tahun
 // echo date ("l", mktime(0,0,0,4,10,1996));
 
-// strtotime
+/// strtotime
 echo date("l", strtotime("10 Apr 1996"));
 ?>
