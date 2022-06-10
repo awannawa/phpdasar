@@ -4,13 +4,13 @@
 // ternary
 // siwtch
 
-$i = 20;
+$i = 10;
 if ($i < 10){
     echo "benar";
 } else if ($i == 10){
-    echo "eeq";
+    echo "Nilainya pas 10";
 } 
-else echo "wakwaw";
+else echo "salah";
  
 
 ?>

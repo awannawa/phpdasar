@@ -1,6 +1,6 @@
 <?php 
-function salam ($waktu = "Datang", $nama = "Lu siapa?"){
-    return "Selamat $waktu, $nama";
+function salam ($waktu = "Datang", $nama = "Agus"){
+    return "Selamat $waktu, $nama!";
 }
 
 ?>
